@@ -3,3 +3,4 @@ coverage
 lib
 .DS_Store
 package-lock.json
+.claude
