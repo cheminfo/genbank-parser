@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s https://raw.githubusercontent.com/cheminfo/ensure-string/main/tsconfig.json)",
+      "Bash(curl -s https://raw.githubusercontent.com/cheminfo/ensure-string/main/.gitignore)",
+      "Bash(curl -s https://raw.githubusercontent.com/cheminfo/ensure-string/main/.eslintrc.json)",
+      "Bash(curl -s https://raw.githubusercontent.com/cheminfo/ensure-string/main/.eslintrc.cjs)",
+      "Bash(curl -s https://raw.githubusercontent.com/cheminfo/ensure-string/main/.prettierignore)"
+    ]
+  }
+}

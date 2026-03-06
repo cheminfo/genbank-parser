@@ -1,5 +1,0 @@
-fixtures
-src/**/__tests__
-coverage
-.travis.yml
-.eslintrc.yml

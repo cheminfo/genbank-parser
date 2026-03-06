@@ -1,24 +1,24 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`genbank parsing snapshots MPI genbank example 1`] = `
-Array [
-  Object {
+exports[`MPI genbank example 1`] = `
+[
+  {
     "accession": "",
     "circular": true,
     "date": "2017-01-18T12:00:00.000Z",
     "definition": "Entry vector for transferring a cloned attL-flanked gene to a destination vector in the Gateway(R) system.",
-    "features": Array [
-      Object {
+    "features": [
+      {
         "end": 2546,
         "name": "synthetic DNA construct",
-        "notes": Object {
-          "lab_host": Array [
+        "notes": {
+          "lab_host": [
             "Escherichia coli",
           ],
-          "mol_type": Array [
+          "mol_type": [
             "other DNA",
           ],
-          "organism": Array [
+          "organism": [
             "synthetic DNA construct",
           ],
         },
@@ -26,11 +26,11 @@ Array [
         "strand": 1,
         "type": "source",
       },
-      Object {
+      {
         "end": 295,
         "name": "rrnB T2 terminator",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "rrnB T2 terminator",
             "transcription terminator T2 from the E. coli rrnBgene",
           ],
@@ -39,14 +39,14 @@ Array [
         "strand": 1,
         "type": "terminator",
       },
-      Object {
+      {
         "end": 473,
         "name": "Escherichia coli rrnB",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "Escherichia coli rrnB",
           ],
-          "note": Array [
+          "note": [
             "rrnB T1 terminator",
             "transcription terminator T1 from the E. coli rrnBgene",
           ],
@@ -55,11 +55,11 @@ Array [
         "strand": 1,
         "type": "terminator",
       },
-      Object {
+      {
         "end": 553,
         "name": "M13 fwd",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "M13 fwd",
             "common sequencing primer, one of multiple similarvariants",
           ],
@@ -68,17 +68,17 @@ Array [
         "strand": 1,
         "type": "primer_bind",
       },
-      Object {
+      {
         "end": 667,
         "name": "mutant version of attL",
-        "notes": Object {
-          "bound_moiety": Array [
+        "notes": {
+          "bound_moiety": [
             "LR Clonase(TM)",
           ],
-          "gene": Array [
+          "gene": [
             "mutant version of attL",
           ],
-          "note": Array [
+          "note": [
             "attL1",
             "recombination site for the Gateway(R) LR reaction",
           ],
@@ -87,11 +87,11 @@ Array [
         "strand": 1,
         "type": "protein_bind",
       },
-      Object {
+      {
         "end": 670,
         "name": "ORF insertion site",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "ORF insertion site",
           ],
         },
@@ -99,17 +99,17 @@ Array [
         "strand": 1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 770,
         "name": "mutant version of attL",
-        "notes": Object {
-          "bound_moiety": Array [
+        "notes": {
+          "bound_moiety": [
             "LR Clonase(TM)",
           ],
-          "gene": Array [
+          "gene": [
             "mutant version of attL",
           ],
-          "note": Array [
+          "note": [
             "attL2",
             "recombination site for the Gateway(R) LR reaction",
           ],
@@ -118,11 +118,11 @@ Array [
         "strand": 1,
         "type": "protein_bind",
       },
-      Object {
+      {
         "end": 806,
         "name": "T7 promoter",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "T7 promoter",
             "promoter for bacteriophage T7 RNA polymerase",
           ],
@@ -131,11 +131,11 @@ Array [
         "strand": -1,
         "type": "promoter",
       },
-      Object {
+      {
         "end": 827,
         "name": "M13 rev",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "M13 rev",
             "common sequencing primer, one of multiple similarvariants",
           ],
@@ -144,24 +144,24 @@ Array [
         "strand": -1,
         "type": "primer_bind",
       },
-      Object {
+      {
         "end": 1749,
         "name": "aph(3')-Ia",
-        "notes": Object {
-          "codon_start": Array [
+        "notes": {
+          "codon_start": [
             1,
           ],
-          "gene": Array [
+          "gene": [
             "aph(3')-Ia",
           ],
-          "note": Array [
+          "note": [
             "KanR",
             "confers resistance to kanamycin in bacteria or G418(Geneticin(R)) in eukaryotes",
           ],
-          "product": Array [
+          "product": [
             "aminoglycoside phosphotransferase",
           ],
-          "translation": Array [
+          "translation": [
             "MSHIQRETSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYGKPDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGKTAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVDASDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGIADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF",
           ],
         },
@@ -169,14 +169,14 @@ Array [
         "strand": 1,
         "type": "CDS",
       },
-      Object {
+      {
         "end": 2484,
         "name": "ori",
-        "notes": Object {
-          "direction": Array [
+        "notes": {
+          "direction": [
             "RIGHT",
           ],
-          "note": Array [
+          "note": [
             "ori",
             "high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication",
           ],
@@ -191,8 +191,8 @@ Array [
     "moleculeType": "ds-DNA",
     "name": "pENTR221",
     "organism": ".",
-    "references": Array [
-      Object {
+    "references": [
+      {
         "authors": "Invitrogen, (Life, Technologies)",
         "description": "1  (bases 1 to 2546)",
         "journal": "Exported Thursday, Feb 11, 2016 from SnapGene 3.0.3 http://www.snapgene.com",
@@ -207,22 +207,22 @@ Array [
 ]
 `;
 
-exports[`genbank parsing snapshots geneious example 2 1`] = `
-Array [
-  Object {
+exports[`geneious example 2 1`] = `
+[
+  {
     "accession": "pET-51b_AG",
     "circular": true,
     "date": "2019-03-26T12:00:00.000Z",
     "definition": "pET-51b(+) SsoSNAP [Strep-His].",
-    "features": Array [
-      Object {
+    "features": [
+      {
         "end": 467,
         "name": "Geneious type: motif",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: motif",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "F1 Ori",
           ],
         },
@@ -230,14 +230,14 @@ Array [
         "strand": -1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 335,
         "name": "Geneious type: Origin of Replication",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Origin of Replication",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "f1 origin",
           ],
         },
@@ -245,14 +245,14 @@ Array [
         "strand": 1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 1442,
         "name": "Geneious type: Marker",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Marker",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "amp marker",
           ],
         },
@@ -260,11 +260,11 @@ Array [
         "strand": -1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 1442,
         "name": "Untitled Feature",
-        "notes": Object {
-          "standard_name": Array [
+        "notes": {
+          "standard_name": [
             "AmpR",
           ],
         },
@@ -272,14 +272,14 @@ Array [
         "strand": -1,
         "type": "CDS",
       },
-      Object {
+      {
         "end": 1513,
         "name": "Geneious type: Promoter",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Promoter",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "amp prom",
           ],
         },
@@ -287,14 +287,14 @@ Array [
         "strand": -1,
         "type": "promoter",
       },
-      Object {
+      {
         "end": 2219,
         "name": "Geneious type: Origin of Replication",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Origin of Replication",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "pBR322 origin",
           ],
         },
@@ -302,11 +302,11 @@ Array [
         "strand": 1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 2825,
         "name": "Untitled Feature",
-        "notes": Object {
-          "standard_name": Array [
+        "notes": {
+          "standard_name": [
             "ROP",
           ],
         },
@@ -314,14 +314,14 @@ Array [
         "strand": -1,
         "type": "CDS",
       },
-      Object {
+      {
         "end": 4488,
         "name": "Geneious type: Regulatory Sequence",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Regulatory Sequence",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "lacI reg",
           ],
         },
@@ -329,11 +329,11 @@ Array [
         "strand": -1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 4356,
         "name": "Untitled Feature",
-        "notes": Object {
-          "standard_name": Array [
+        "notes": {
+          "standard_name": [
             "LacI",
           ],
         },
@@ -341,14 +341,14 @@ Array [
         "strand": -1,
         "type": "CDS",
       },
-      Object {
+      {
         "end": 4557,
         "name": "Geneious type: motif",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: motif",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "LacI Prom",
           ],
         },
@@ -356,14 +356,14 @@ Array [
         "strand": -1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 4887,
         "name": "T7 promoter",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "T7 promoter",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "T7 promoter misc",
           ],
         },
@@ -371,14 +371,14 @@ Array [
         "strand": 1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 4888,
         "name": "Geneious type: Promoter",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Promoter",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "T7 prom",
           ],
         },
@@ -386,14 +386,14 @@ Array [
         "strand": 1,
         "type": "promoter",
       },
-      Object {
+      {
         "end": 4915,
         "name": "Geneious type: Regulatory Sequence",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Regulatory Sequence",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "lacO reg",
           ],
         },
@@ -401,14 +401,14 @@ Array [
         "strand": 1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 4949,
         "name": "Geneious type: Gene",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Gene",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "T7_transl_en_RBS",
           ],
         },
@@ -416,14 +416,14 @@ Array [
         "strand": 1,
         "type": "gene",
       },
-      Object {
+      {
         "end": 4959,
         "name": "(null)",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "(null)",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "(null) misc signal",
           ],
         },
@@ -431,14 +431,14 @@ Array [
         "strand": 1,
         "type": "misc_signal",
       },
-      Object {
+      {
         "end": 4989,
         "name": "Strep-Tag II",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "Strep-Tag II",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "Strep-Tag II CDS",
           ],
         },
@@ -446,14 +446,14 @@ Array [
         "strand": 1,
         "type": "CDS",
       },
-      Object {
+      {
         "end": 5010,
         "name": "Geneious type: Gene",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Gene",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "EK",
           ],
         },
@@ -461,14 +461,14 @@ Array [
         "strand": 1,
         "type": "gene",
       },
-      Object {
+      {
         "end": 5010,
         "name": "Enterokinase",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "Enterokinase",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "Enterokinase CDS",
           ],
         },
@@ -476,11 +476,11 @@ Array [
         "strand": 1,
         "type": "CDS",
       },
-      Object {
+      {
         "end": 5031,
         "name": "Untitled Feature",
-        "notes": Object {
-          "standard_name": Array [
+        "notes": {
+          "standard_name": [
             "jh1911",
           ],
         },
@@ -488,11 +488,11 @@ Array [
         "strand": -1,
         "type": "primer_bind",
       },
-      Object {
+      {
         "end": 5047,
         "name": "Untitled Feature",
-        "notes": Object {
-          "standard_name": Array [
+        "notes": {
+          "standard_name": [
             "jh1908",
           ],
         },
@@ -500,11 +500,11 @@ Array [
         "strand": 1,
         "type": "primer_bind",
       },
-      Object {
+      {
         "end": 5475,
         "name": "Untitled Feature",
-        "notes": Object {
-          "standard_name": Array [
+        "notes": {
+          "standard_name": [
             "SsoSNAP",
           ],
         },
@@ -512,11 +512,11 @@ Array [
         "strand": 1,
         "type": "CDS",
       },
-      Object {
+      {
         "end": 5487,
         "name": "Untitled Feature",
-        "notes": Object {
-          "standard_name": Array [
+        "notes": {
+          "standard_name": [
             "jh1909",
           ],
         },
@@ -524,11 +524,11 @@ Array [
         "strand": -1,
         "type": "primer_bind",
       },
-      Object {
+      {
         "end": 5492,
         "name": "Untitled Feature",
-        "notes": Object {
-          "standard_name": Array [
+        "notes": {
+          "standard_name": [
             "jh1910",
           ],
         },
@@ -536,14 +536,14 @@ Array [
         "strand": 1,
         "type": "primer_bind",
       },
-      Object {
+      {
         "end": 5532,
         "name": "His-Tag",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "His-Tag",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "His-Tag CDS",
           ],
         },
@@ -551,14 +551,14 @@ Array [
         "strand": 1,
         "type": "CDS",
       },
-      Object {
+      {
         "end": 5535,
         "name": "(null)",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "(null)",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "(null) misc signal",
           ],
         },
@@ -566,14 +566,14 @@ Array [
         "strand": 1,
         "type": "misc_signal",
       },
-      Object {
+      {
         "end": 5616,
         "name": "Geneious type: motif",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: motif",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "T7 Ter",
           ],
         },
@@ -581,14 +581,14 @@ Array [
         "strand": -1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 5617,
         "name": "Geneious type: Terminator",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Terminator",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "T7 term",
           ],
         },
@@ -601,8 +601,8 @@ Array [
     "moleculeType": "ds-DNA",
     "name": "JHp0003",
     "organism": "Unknown Unclassified.",
-    "references": Array [
-      Object {
+    "references": [
+      {
         "authors": "Self",
         "description": "1  (bases 1 to 6325)",
         "journal": "Unpublished. COMMENT SECID/File created by SciEd Central, Scientific & Educational Software COMMENT COMMENT ApEinfo:methylated:1",
@@ -615,25 +615,25 @@ Array [
 ]
 `;
 
-exports[`genbank parsing snapshots ncbi genbank example 1`] = `
-Array [
-  Object {
+exports[`ncbi genbank example 1`] = `
+[
+  {
     "accession": "Z78533",
     "circular": false,
     "date": "2006-11-30T12:00:00.000Z",
     "definition": "C.irapeanum 5.8S rRNA gene and ITS1 and ITS2 DNA.",
-    "features": Array [
-      Object {
+    "features": [
+      {
         "end": 740,
         "name": "Cypripedium irapeanum",
-        "notes": Object {
-          "db_xref": Array [
+        "notes": {
+          "db_xref": [
             "taxon:49711",
           ],
-          "mol_type": Array [
+          "mol_type": [
             "genomic DNA",
           ],
-          "organism": Array [
+          "organism": [
             "Cypripedium irapeanum",
           ],
         },
@@ -641,11 +641,11 @@ Array [
         "strand": 1,
         "type": "source",
       },
-      Object {
+      {
         "end": 380,
         "name": "internal transcribed spacer 1",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "internal transcribed spacer 1",
           ],
         },
@@ -653,11 +653,11 @@ Array [
         "strand": 1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 550,
         "name": "5.8S rRNA",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "5.8S rRNA",
           ],
         },
@@ -665,14 +665,14 @@ Array [
         "strand": 1,
         "type": "gene",
       },
-      Object {
+      {
         "end": 550,
         "name": "5.8S rRNA",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "5.8S rRNA",
           ],
-          "product": Array [
+          "product": [
             "5.8S ribosomal RNA",
           ],
         },
@@ -680,11 +680,11 @@ Array [
         "strand": 1,
         "type": "rRNA",
       },
-      Object {
+      {
         "end": 551,
         "name": "internal transcribed spacer 2",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "internal transcribed spacer 2",
           ],
         },
@@ -698,14 +698,14 @@ Array [
     "moleculeType": "DNA",
     "name": "Z78533",
     "organism": "Cypripedium irapeanum Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta; Spermatophyta; Magnoliophyta; Liliopsida; Asparagales; Orchidaceae; Cypripedioideae; Cypripedium.",
-    "references": Array [
-      Object {
+    "references": [
+      {
         "authors": "Cox,A.V., Pridgeon,A.M., Albert,V.A. and Chase,M.W.",
         "description": "1",
         "journal": "Unpublished",
         "title": "Phylogenetics of the slipper orchids (Cypripedioideae: Orchidaceae): nuclear rDNA ITS sequences",
       },
-      Object {
+      {
         "authors": "Cox,A.V.",
         "description": "2  (bases 1 to 740)",
         "journal": "Submitted (19-AUG-1996) Cox A.V., Royal Botanic Gardens, Kew, Richmond, Surrey TW9 3AB, UK",
@@ -720,22 +720,22 @@ Array [
 ]
 `;
 
-exports[`genbank parsing snapshots p5 1`] = `
-Array [
-  Object {
+exports[`p5 1`] = `
+[
+  {
     "accession": "pET-51b_AG",
     "circular": true,
     "date": "2020-02-11T12:00:00.000Z",
     "definition": "pET-51b(+) SNAP-E30R = SNAPf [Strep-His].",
-    "features": Array [
-      Object {
+    "features": [
+      {
         "end": 467,
         "name": "Geneious type: motif",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: motif",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "F1 Ori",
           ],
         },
@@ -743,14 +743,14 @@ Array [
         "strand": -1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 335,
         "name": "Geneious type: Origin of Replication",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Origin of Replication",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "f1 origin",
           ],
         },
@@ -758,11 +758,11 @@ Array [
         "strand": 1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 1442,
         "name": "Untitled Feature",
-        "notes": Object {
-          "standard_name": Array [
+        "notes": {
+          "standard_name": [
             "AmpR",
           ],
         },
@@ -770,14 +770,14 @@ Array [
         "strand": -1,
         "type": "CDS",
       },
-      Object {
+      {
         "end": 1442,
         "name": "Geneious type: Marker",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Marker",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "amp marker",
           ],
         },
@@ -785,14 +785,14 @@ Array [
         "strand": -1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 1513,
         "name": "Geneious type: Promoter",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Promoter",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "amp prom",
           ],
         },
@@ -800,14 +800,14 @@ Array [
         "strand": -1,
         "type": "promoter",
       },
-      Object {
+      {
         "end": 2219,
         "name": "Geneious type: Origin of Replication",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Origin of Replication",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "pBR322 origin",
           ],
         },
@@ -815,11 +815,11 @@ Array [
         "strand": 1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 2825,
         "name": "Untitled Feature",
-        "notes": Object {
-          "standard_name": Array [
+        "notes": {
+          "standard_name": [
             "ROP",
           ],
         },
@@ -827,11 +827,11 @@ Array [
         "strand": -1,
         "type": "CDS",
       },
-      Object {
+      {
         "end": 4356,
         "name": "Untitled Feature",
-        "notes": Object {
-          "standard_name": Array [
+        "notes": {
+          "standard_name": [
             "LacI",
           ],
         },
@@ -839,14 +839,14 @@ Array [
         "strand": -1,
         "type": "CDS",
       },
-      Object {
+      {
         "end": 4488,
         "name": "Geneious type: Regulatory Sequence",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Regulatory Sequence",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "lacI reg",
           ],
         },
@@ -854,14 +854,14 @@ Array [
         "strand": -1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 4557,
         "name": "Geneious type: motif",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: motif",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "LacI Prom",
           ],
         },
@@ -869,14 +869,14 @@ Array [
         "strand": -1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 4887,
         "name": "T7 promoter",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "T7 promoter",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "T7 promoter misc",
           ],
         },
@@ -884,14 +884,14 @@ Array [
         "strand": 1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 4888,
         "name": "Geneious type: Promoter",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Promoter",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "T7 prom",
           ],
         },
@@ -899,14 +899,14 @@ Array [
         "strand": 1,
         "type": "promoter",
       },
-      Object {
+      {
         "end": 4915,
         "name": "Geneious type: Regulatory Sequence",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Regulatory Sequence",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "lacO reg",
           ],
         },
@@ -914,14 +914,14 @@ Array [
         "strand": 1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 4949,
         "name": "Geneious type: Gene",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Gene",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "T7_transl_en_RBS",
           ],
         },
@@ -929,14 +929,14 @@ Array [
         "strand": 1,
         "type": "gene",
       },
-      Object {
+      {
         "end": 4959,
         "name": "(null)",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "(null)",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "(null) misc signal",
           ],
         },
@@ -944,14 +944,14 @@ Array [
         "strand": 1,
         "type": "misc_signal",
       },
-      Object {
+      {
         "end": 4989,
         "name": "Strep-Tag II",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "Strep-Tag II",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "Strep-Tag II CDS",
           ],
         },
@@ -959,14 +959,14 @@ Array [
         "strand": 1,
         "type": "CDS",
       },
-      Object {
+      {
         "end": 5010,
         "name": "Geneious type: Gene",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Gene",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "EK",
           ],
         },
@@ -974,14 +974,14 @@ Array [
         "strand": 1,
         "type": "gene",
       },
-      Object {
+      {
         "end": 5010,
         "name": "Enterokinase",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "Enterokinase",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "Enterokinase CDS",
           ],
         },
@@ -989,14 +989,14 @@ Array [
         "strand": 1,
         "type": "CDS",
       },
-      Object {
+      {
         "end": 5565,
         "name": "AGTSM",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "AGTSM",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "AGTSM CDS",
           ],
         },
@@ -1004,14 +1004,14 @@ Array [
         "strand": 1,
         "type": "CDS",
       },
-      Object {
+      {
         "end": 5109,
         "name": "Geneious type: motif",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: motif",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "E30R",
           ],
         },
@@ -1019,11 +1019,11 @@ Array [
         "strand": 1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 5582,
         "name": "Untitled Feature",
-        "notes": Object {
-          "standard_name": Array [
+        "notes": {
+          "standard_name": [
             "jh330",
           ],
         },
@@ -1031,11 +1031,11 @@ Array [
         "strand": 1,
         "type": "primer_bind",
       },
-      Object {
+      {
         "end": 5582,
         "name": "Untitled Feature",
-        "notes": Object {
-          "standard_name": Array [
+        "notes": {
+          "standard_name": [
             "jh331",
           ],
         },
@@ -1043,14 +1043,14 @@ Array [
         "strand": -1,
         "type": "primer_bind",
       },
-      Object {
+      {
         "end": 5566,
         "name": "Geneious type: Editing History Deletion",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Editing History Deletion",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "GGCCGCCTGGAAGTTCTGTTCCAGGGCCCGAAAGCTTTCCTCGAGGGATCCGAAATCGGTACTGGCTTTCCATTCGACCCCCATTATGTGGAAGTCCTGGGCGAGCGCATGCACTACGTCGATGTTGGTCCGCGCGATGGCACCCCTGTGCTGTTCCTGCACGGTAACCCGACCTCCTCCTACGTGTGGCGCAACATCATCCCGCATGTTGCACCGACCCATCGCTGCATTGCTCCAGACCTGATCGGTATGGGCAAATCCGACAAACCAGACCTGGGTTATTTCTTCGACGACCACGTCCGCTTCATGGATGCCTTCATCGAAGCCCTGGGTCTGGAAGAGGTCGTCCTGGTCATTCACGACTGGGGCTCCGCTCTGGGTTTCCACTGGGCCAAGCGCAATCCAGAGCGCGTCAAAGGTATTGCATTTATGGAGTTCATCCGCCCTATCCCGACCTGGGACGAATGGCCAGAATTTGCCCGCGAGACCTTCCAGGCCTTCCGCACCACCGACGTCGGCCGCAAGCTGATCATCGATCAGAACGTTTTTATCGAGGGTACGCTGCCGATGGGTGTCGTCCGCCCGCTGACTGAAGTCGAGATGGACCATTACCGCGAGCCGTTCCTGAATCCTGTTGACCGCGAGCCACTGTGGCGCTTCCCAAACGAGCTGCCAATCGCCGGTGAGCCAGCGAACATCGTCGCGCTGGTCGAAGAATACATGGACTGGCTGCACCAGTCCCCTGTCCCGAAGCTGCTGTTCTGGGGCACCCCAGGCGTTCTGATCCCACCGGCCGAAGCCGCTCGCCTGGCCAAAAGCCTGCCTAACTGCAAGGCTGTGGACATCGGCCCGGGTCTGAATCTGCTGCAAGAAGACAACCCGGACCTGATCGGCAGCGAGATCGCGCGCTGGCTGTCTACTCTGGAGATTTCCGGT",
           ],
         },
@@ -1058,14 +1058,14 @@ Array [
         "strand": 1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 5622,
         "name": "His-Tag",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "His-Tag",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "His-Tag CDS",
           ],
         },
@@ -1073,14 +1073,14 @@ Array [
         "strand": 1,
         "type": "CDS",
       },
-      Object {
+      {
         "end": 5625,
         "name": "(null)",
-        "notes": Object {
-          "gene": Array [
+        "notes": {
+          "gene": [
             "(null)",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "(null) misc signal",
           ],
         },
@@ -1088,14 +1088,14 @@ Array [
         "strand": 1,
         "type": "misc_signal",
       },
-      Object {
+      {
         "end": 5706,
         "name": "Geneious type: motif",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: motif",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "T7 Ter",
           ],
         },
@@ -1103,14 +1103,14 @@ Array [
         "strand": -1,
         "type": "misc_feature",
       },
-      Object {
+      {
         "end": 5707,
         "name": "Geneious type: Terminator",
-        "notes": Object {
-          "note": Array [
+        "notes": {
+          "note": [
             "Geneious type: Terminator",
           ],
-          "standard_name": Array [
+          "standard_name": [
             "T7 term",
           ],
         },
@@ -1123,8 +1123,8 @@ Array [
     "moleculeType": "ds-DNA",
     "name": "JHp0005",
     "organism": "Unknown Unclassified.",
-    "references": Array [
-      Object {
+    "references": [
+      {
         "authors": "Self",
         "description": "1  (bases 1 to 6325)",
         "journal": "Unpublished. COMMENT SECID/File created by SciEd Central, Scientific & Educational Software COMMENT COMMENT ApEinfo:methylated:1",

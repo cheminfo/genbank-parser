@@ -1,33 +1,41 @@
 # genbank-parser
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][codecov-image]][codecov-url]
+[![build status][ci-image]][ci-url]
 [![npm download][download-image]][download-url]
 
 This work was based on [TeselaGen/ve-sequence-parsers](https://github.com/TeselaGen/ve-sequence-parsers).
 
 Parse genbank files.
 
+## Installation
+
+```console
+npm install genbank-parser
+```
+
 ## Usage
 
-```js
-const fs = require('fs');
-const genbankParser = require('genbank-parser');
+```ts
+import { readFileSync } from 'node:fs';
 
-const genbank = fs.readFileSync('./genbank.gb', 'utf-8');
-const result = genbankParser(genbank);
+import { genbankToJson } from 'genbank-parser';
+
+const genbank = readFileSync('./genbank.gb', 'utf-8');
+const result = genbankToJson(genbank);
 ```
 
 ## Parsed fields
 
-The parser tries to parse all fields described by the [genbank documentation](https://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html)
+The parser tries to parse all fields described by the [genbank documentation](https://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html).
+
 Additional properties are added:
+
 At the sequence level:
 
 - `name`: locus name
 
-At the feature level
+At the feature level:
 
 - `name`: extracted from several possible feature notes. Default is `/label`
 
@@ -95,54 +103,49 @@ Parsed output
   {
     features: [
       {
-        locations: [],
         notes: {
           organism: ['Cypripedium irapeanum'],
           mol_type: ['genomic DNA'],
-          db_xref: ['taxon:49711']
+          db_xref: ['taxon:49711'],
         },
         type: 'source',
         strand: 1,
         start: 1,
         end: 740,
-        name: 'Cypripedium irapeanum'
+        name: 'Cypripedium irapeanum',
       },
       {
-        locations: [],
         notes: { note: ['internal transcribed spacer 1'] },
         type: 'misc_feature',
         strand: 1,
         start: 1,
         end: 380,
-        name: 'internal transcribed spacer 1'
+        name: 'internal transcribed spacer 1',
       },
       {
-        locations: [],
         notes: { gene: ['5.8S rRNA'] },
         type: 'gene',
         strand: 1,
         start: 381,
         end: 550,
-        name: '5.8S rRNA'
+        name: '5.8S rRNA',
       },
       {
-        locations: [],
         notes: { gene: ['5.8S rRNA'], product: ['5.8S ribosomal RNA'] },
         type: 'rRNA',
         strand: 1,
         start: 381,
         end: 550,
-        name: '5.8S rRNA'
+        name: '5.8S rRNA',
       },
       {
-        locations: [],
         notes: { note: ['internal transcribed spacer 2'] },
         type: 'misc_feature',
         strand: 1,
         start: 551,
         end: 740,
-        name: 'internal transcribed spacer 2'
-      }
+        name: 'internal transcribed spacer 2',
+      },
     ],
     name: 'Z78533',
     sequence:
@@ -166,25 +169,27 @@ Parsed output
         authors: 'Cox,A.V., Pridgeon,A.M., Albert,V.A. and Chase,M.W.',
         title:
           'Phylogenetics of the slipper orchids (Cypripedioideae: Orchidaceae): nuclear rDNA ITS sequences',
-        journal: 'Unpublished'
+        journal: 'Unpublished',
       },
       {
         description: '2  (bases 1 to 740)',
         authors: 'Cox,A.V.',
         title: 'Direct Submission',
         journal:
-          'Submitted (19-AUG-1996) Cox A.V., Royal Botanic Gardens, Kew, Richmond, Surrey TW9 3AB, UK'
-      }
-    ]
-  }
+          'Submitted (19-AUG-1996) Cox A.V., Royal Botanic Gardens, Kew, Richmond, Surrey TW9 3AB, UK',
+      },
+    ],
+  },
 ];
 ```
 
-[npm-image]: https://img.shields.io/npm/v/genbank-parser.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/cheminfo-js
-[travis-image]: https://img.shields.io/travis/cheminfo-js/genbank-parser/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/cheminfo-js/genbank-parser
-[codecov-image]: https://img.shields.io/codecov/c/github/cheminfo-js/genbank-parser.svg?style=flat-square
-[codecov-url]: https://codecov.io/gh/cheminfo-js/genbank-parser
-[download-image]: https://img.shields.io/npm/dm/genbank-parser.svg?style=flat-square
+## License
+
+[MIT](./LICENSE)
+
+[npm-image]: https://img.shields.io/npm/v/genbank-parser.svg
+[npm-url]: https://www.npmjs.com/package/genbank-parser
+[ci-image]: https://github.com/cheminfo/genbank-parser/workflows/Node.js%20CI/badge.svg?branch=main
+[ci-url]: https://github.com/cheminfo/genbank-parser/actions?query=workflow%3A%22Node.js+CI%22
+[download-image]: https://img.shields.io/npm/dm/genbank-parser.svg
 [download-url]: https://www.npmjs.com/package/genbank-parser
